@@ -1,24 +1,3 @@
-
-// import * as AFRAME from 'aframe';
-
-// AFRAME.registerComponent('girlModel', {
-//     schema: {
-        
-//     },
-
-//     init: function () {
-//       // Do something when component first attached.
-//     },
-
-//     update: function () {
-//       // Do something when component's data is updated.
-//     },
-
-//     remove: function () {
-//       // Do something the component or its entity is detached.
-//     },
-
-//     tick: function (time, timeDelta) {
-//       // Do something on every scene tick or frame.
-//     }
-// });
+document.getElementById('girl').addEventListener('loaded', function (e) { 
+    console.log('abdjakb', e)
+})
